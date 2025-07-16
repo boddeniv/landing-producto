@@ -1,0 +1,102 @@
+/* Reset y fuente principal */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background-color: #fffaf0;
+  color: #333;
+}
+
+/* Estilos del encabezado */
+header {
+  background-color: #ec9cbc;
+  text-align: center;
+  color: white;
+  padding: 40px 20px;
+}
+
+.logo {
+  width:150px;
+    height:150px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+/* Sección de descripción */
+.descripcion,
+.beneficios,
+.testimonios,
+.cta {
+  max-width: 800px;
+  margin: auto;
+  padding: 40px 20px;
+}
+
+h2 {
+  color: #b45309;
+  margin-bottom: 20px;
+}
+
+/* Lista de beneficios */
+.beneficios ul {
+  list-style: none;
+}
+
+.beneficios li {
+  padding: 10px 0;
+  font-size: 18px;
+}
+
+/* Estilo para testimonios */
+.testimonios blockquote {
+  background-color: #fff7ed;
+  padding: 15px;
+  border-left: 4px solid #f59e0b;
+  margin-bottom: 15px;
+  font-style: italic;
+}
+
+/* Botón de llamada a la acción */
+.cta {
+  text-align: center;
+  background-color: #fde68a;
+  border-top: 1px solid #f59e0b;
+}
+
+.boton {
+  display: inline-block;
+  background-color: #f59e0b;
+  color: white;
+  padding: 15px 30px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 20px;
+  transition: background 0.3s;
+}
+
+.boton:hover {
+  background-color: #d97706;
+}
+
+/* Pie de página */
+footer {
+  background-color: #1f2937;
+  color: #cbd5e1;
+  text-align: center;
+  padding: 30px 20px;
+  font-size: 14px;
+}
+
+footer a {
+  color: #fcd34d;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
